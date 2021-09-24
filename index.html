@@ -8,11 +8,11 @@
     <body>
         <h1>RANDOM GIF GENERATOR</h1>
         <h2>Powered by <a href="https://developers.giphy.com/">GIPHY API</a></h2>
-        <div id="container"></div>
+        <div id="container">Enter a search term to load a random GIF!</div>
             <img id="gif"/>
         <div id="search">
             <input type="search" id="gif-search" placeholder="Search for a GIF..." required>
-            <button onclick="findRandomGif()">Search</button>
+            <button id="button" type="submit" onclick="findRandomGif()">Search</button>
         </div>
         <script src="script.js"></script>
     </body>
